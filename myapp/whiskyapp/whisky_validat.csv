@@ -1,0 +1,43 @@
+Whisky,Meta_Critic,Number_of_MCReviews,Class,Cluster,Type,Reddit_Username,Reddit_Review,Cost_num,Region_cleaned
+AnCnoc 1975,8.85,4,SingleMalt-like,B,Malt,ernestreviews,89,6,Scotland
+Ardbeg Ardbog,9.02,20,SingleMalt-like,J,Malt,Shane_IL,82,5,Scotland
+Ardbeg Corryvreckan,9.04,23,SingleMalt-like,J,Malt,Joan_de_Gant,67,4,Scotland
+Ardbeg Corryvreckan,9.04,23,SingleMalt-like,J,Malt,ImGrate,89,4,Scotland
+Ardbeg Corryvreckan,9.04,23,SingleMalt-like,J,Malt,moogatronic,89,4,Scotland
+Ardbeg Corryvreckan,9.04,23,SingleMalt-like,J,Malt,archimon,86,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,dmsn7d,83,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,bacon_of_the_lake,86,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,StillbornReady,90,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,TangledUpInBleu,78,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,Disco_Biscuit,87,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,Ambiguo42,88,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,winnacht,81,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,CreamSpinachYo,84,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,Joan_de_Gant,67,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,moogatronic,89,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,DramFan,82,4,Scotland
+Ardbeg Uigeadail,9.17,24,SingleMalt-like,J,Malt,archimon,86,4,Scotland
+Auchentoshan Three Wood,8.26,23,SingleMalt-like,A,Malt,RobMagus,76,4,Scotland
+Booker's Rye,9.26,10,Rye-like,R4,Rye,gleaver49,85,6,USA
+Bruichladdich Octomore 6.1,8.75,16,SingleMalt-like,J,Malt,celocanth13,85,5,Scotland
+Bruichladdich Octomore 6.3,8.76,10,SingleMalt-like,J,Malt,Gaija,88,5,Scotland
+Bruichladdich Octomore 7.1,8.98,14,SingleMalt-like,J,Malt,Hold_onto_yer_butts,80,5,Scotland
+Bulleit Bourbon,8.37,24,Bourbon-like,R3,Bourbon,spid3rfly,86,2,USA
+Bulleit Rye,8.3,18,Rye-like,R4,Rye,Sax45,70,2,USA
+Crown Royal Reserve,8.41,15,Rye-like,,Blend,StudioRat,86,3,Canada
+Elijah Craig Barrel Proof,8.89,13,Bourbon-like,R1,Bourbon,xreekinghavocx,83,4,USA
+Elijah Craig Barrel Proof,8.89,13,Bourbon-like,R1,Bourbon,anagama,83,4,USA
+High West Bourye,8.76,10,Rye-like,R4,Blend,Whiskypa-s,78,4,USA
+High West Rendezvous Rye,8.91,18,Rye-like,R4,Rye,tcsrwm,84,4,USA
+High West Rendezvous Rye,8.91,18,Rye-like,R4,Rye,Stringfellow-Hawke,87,4,USA
+J.P. Wiser's Legacy,8.96,16,Rye-like,,Blend,headlessparrot,82,2,Canada
+Johnnie Walker Blue Label,8.61,18,Scotch-like,,Blend,jonker1541,69,5,Scotland
+Laphroaig Quarter Cask,8.31,24,SingleMalt-like,J,Malt,bieliebielie,81,4,Scotland
+Laphroaig Quarter Cask,8.31,24,SingleMalt-like,J,Malt,Disco_Biscuit,87,4,Scotland
+Laphroaig Quarter Cask,8.31,24,SingleMalt-like,J,Malt,Hold_onto_yer_butts,80,4,Scotland
+Laphroaig Quarter Cask,8.31,24,SingleMalt-like,J,Malt,liberal_texan,91,4,Scotland
+Laphroaig Quarter Cask,8.31,24,SingleMalt-like,J,Malt,MK314,86,4,Scotland
+Old Weller Antique 107,8.69,15,Bourbon-like,R0,Bourbon,OfficerJerd,80,2,USA
+Old Weller Antique 107,8.69,15,Bourbon-like,R0,Bourbon,bacon_of_the_lake,86,2,USA
+Old Weller Antique 107,8.69,15,Bourbon-like,R0,Bourbon,tcsrwm,84,2,USA
+Wild Turkey 101 Rye,8.49,15,Rye-like,R4,Rye,ulicqd,86,2,USA

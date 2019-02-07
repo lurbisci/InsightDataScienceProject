@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Recommender</title>
+        <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+          <link href="../static/css/extra.css" rel="stylesheet">
+
+
+
+</head>
+<body id="override">
+
+<!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">The Ron Burgundy</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="/input">The Recommender</a>
+          </li>
+
+            <li class="nav-item">
+            <a class="nav-link" href="/about">About the Project</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+    <br><br>
+
+
+
+<!-- Page Content -->
+    <div class="container">
+        <div class="row">
+          <h1 class="my-4">Time to find you a scotch, my friend</h1>
+
+
+          <!-- Drop downs -->
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://img.maximummedia.ie/her_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtaGVyLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE1XFxcLzEyXFxcLzAzMTIzMTQ4XFxcL1BSMDMwNS5wbmdcIixcIndpZHRoXCI6NzY3LFwiaGVpZ2h0XCI6NDMxLFwiZGVmYXVsdFwiOlwiaHR0cHM6XFxcL1xcXC93d3cuaGVyLmllXFxcL2Fzc2V0c1xcXC9pbWFnZXNcXFwvaGVyXFxcL25vLWltYWdlLnBuZz92PTZcIixcIm9wdGlvbnNcIjpbXX0iLCJoYXNoIjoiZjU4NWYyNTI4Mzg0ZTU2MzhmMTE3ZDhmMWYyZDc4ZDZlZjUyYWExZCJ9/pr0305.png" alt="Card image cap">
+            <div class="card-body">
+
+
+<div class="container">
+  <h3>The categories below represent 9 distinct flavor profiles with examples of scotches that embody those characteristics.
+      Select the category of your preferred flavor profile. Then choose your price point and
+      Reddit user rating score from the dropdown menus below.</h3>
+  <div class="row">
+  </div>
+</div>
+
+
+<form action="/output" method="GET">
+
+
+ <div class="form-group block-group" >
+
+    <div class="radio1">
+        <label><input type="radio" value="224" name="whisky_type" checked="checked"> Full-bodied, sweet, pronounced sherry</label>
+       <img src="https://img.thewhiskyexchange.com/900/aucob.non2.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="181" name="whisky_type"> Full-bodied, pronounced sherry, malty notes</label>
+      <img src="https://img.thewhiskyexchange.com/900/welsh_pen1.jpg" class="whisky_thumb" />
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="12" name="whisky_type"> Full-bodied, sweet, some smoky notes</label>
+       <img src="https://img.thewhiskyexchange.com/900/gfcob.non1.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="41" name="whisky_type"> Medium-bodied, medium-sweet, some smoky notes</label>
+      <img src="https://img.thewhiskyexchange.com/900/grsob.non.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="44" name="whisky_type"> Full-bodied, sweet, malty notes</label>
+       <img src="https://img.thewhiskyexchange.com/900/irish_gre5.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="7" name="whisky_type"> Light-bodied, sweet, apéritif-style</label>
+      <img src="https://img.thewhiskyexchange.com/900/ggrob.non1.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="212" name="whisky_type"> Very light-bodied, sweet, apéritif-style</label>
+       <img src="https://img.thewhiskyexchange.com/900/aucob.non3.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="203" name="whisky_type"> Medium-bodied, medium-sweet, quite smoky</label>
+       <img src="https://img.thewhiskyexchange.com/900/talob.non7.jpg" class="whisky_thumb"/>
+    </div>
+    <div class="radio1">
+      <label><input type="radio" value="109" name="whisky_type"> Full-bodied, dry, very smoky</label>
+      <img src="https://img.thewhiskyexchange.com/900/lrgob.non1.jpg" class="whisky_thumb"/>
+    </div>
+</div>
+
+
+<div class="form-group block-group">
+<label for="cost_index">Cost for Bottle:</label>
+<select class="form-control", id="cost_index", name="cost_index" >
+    <option value="1">$</option>
+    <option value="2">$$</option>
+    <option value="3">$$$</option>
+    <option value="4">$$$$</option>
+    <option value="5">$$$$$</option>
+    <option value="6">$$$$$+</option>
+</select>
+</div>
+
+<div class="form-group block-group">
+<label for="reddit_index" >Reddit Review Rating (Scores range from 1 to 100):</label>
+<select class="form-control", id="reddit_index", name="reddit_index">
+    <option value="60">60 or higher</option>
+    <option value="70">70 or higher</option>
+    <option value="80">80 or higher</option>
+    <option value="90">90 or higher</option>
+</select>
+</div>
+
+
+<p class="card-text"> </p>
+<input type="submit" id="submit" class="btn btn-primary btn-lg" value="Go! &rarr;">
+
+        </form>
+
+
+
+</body>
+</html>
