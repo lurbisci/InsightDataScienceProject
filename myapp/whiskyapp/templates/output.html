@@ -54,16 +54,16 @@
     <img class="img-fluid mb-5 d-block mx-auto" src="https://images.supercall.com/v1/image/2683771/size/tmg-facebook_social" alt="Card image cap" >
   <h2>Here you go, my friend. Enjoy!</h2>
 
-    {% if variable is defined %}
-    <table class="table table-hover">
+    {% if whisky_names|length == 0 %}
+        <h2>... Oops, there does not seem to be any scotches that match your requests. Please try another search. </h2>
+    {% else %}
+        <table class="table table-hover">
         <tr><th>Whisky</th><th>Reddit Review</th></tr>
         {% for whisky in whisky_names %}
         <tr><td>{{ whisky }}</td><td>{{ redditreview[loop.index0] }}</td></tr>
         {% endfor %}
-    {% else %}
-        <h2>... Oops, there does not seem to be any scotches that match your requests. Please try another search. </h2>
+        </table>
     {% endif %}
-    </table>
 </div>
 
 </body>

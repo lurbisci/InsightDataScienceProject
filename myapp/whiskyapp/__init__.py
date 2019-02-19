@@ -77,8 +77,10 @@ def whisky_output():
     whisky_type = request.args.get("whisky_type")
     cost_index = request.args.get("cost_index")
     reddit_index = request.args.get("reddit_index")
-    #whisky_results, is_shitty_output = recommendation_output(whisky_type, cost_index, reddit_index)
     whisky_results = recommendation_output(whisky_type, cost_index, reddit_index)
+    #print(len(whisky_results))
+    #if len(whisky_results) == 0:
+    #    return render_template("output.html")
     return render_template("output.html", whisky_names=whisky_results['Whisky_name'].values,
                            redditreview=whisky_results['Reddit_Review'].values)
 
